@@ -27,7 +27,9 @@ function SendMessage() {
              type="text" onChange={(e)=>setMessage(e.target.value)}
              value={message}
              />
-             <SendIcon/>
+             <button>
+                 <SendIcon/>
+            </button>  
         </form>
     </div>
   )
